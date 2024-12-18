@@ -26,7 +26,7 @@ export const Info = ({ data }: InfoProps) => {
         <div className="flex items-center gap-x-4">
           <h3 className="font-semibold text-black">Color:</h3>
           <div
-            className="w-4 h-4 rounded-full border border-gray-600 p-3"
+            className="w-6 h-6 rounded-full border border-gray-600"
             style={{ backgroundColor: data?.color?.value }}
           />
         </div>
