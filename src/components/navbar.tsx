@@ -4,7 +4,7 @@ import { MainNav } from "./main-nav";
 import { getCategories } from "@/actions/get-categories";
 import { NavbarActions } from "./navbar-actions";
 
-export const Navbar = async () => {
+const Navbar = async () => {
   const categories = await getCategories();
 
   return (
@@ -21,3 +21,5 @@ export const Navbar = async () => {
     </div>
   );
 };
+
+export default Navbar;
